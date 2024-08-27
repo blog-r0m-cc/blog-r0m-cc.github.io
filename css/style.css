@@ -1,0 +1,26 @@
+:root {
+	--body-padding: 100px;
+}
+
+body {
+	padding: var(--body-padding) 0 var(--body-padding) 0;
+}
+
+.website {
+	margin-bottom: 20px;
+}
+
+.website > .card > .card-body > .card-text {
+	text-align: justify;
+}
+
+.website > .card > .card-header {
+	display: flex;
+	gap: 5px;
+}
+
+img.favicon {
+	width: 25px;
+	height: 25px;
+}
+
